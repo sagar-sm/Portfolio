@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="sagar mohite, blog, portfolio, code,.NET, sea reflection, minimalist website design, developer, coder, designer">
+<meta name="title" content="seaflection/sagarmohite/portfolio" />
+<meta name="description" content="Portfolio of Sagar Mohite">
+<link rel="image_src" href="Assets/Images/thumbnail.png" />
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Sagar Mohite</title>
+<!-- TemplateEndEditable -->
+
+<link href="../Assets/css/style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+
+
+<!-- TemplateEndEditable --> 
+</head>
+
+<body id="page">
+<div class="container">
+  <div class="header"><a href="../index.html">sagar mohite</a></div>
+  <nav>
+    <ul>
+      <!--a href="index.html"><li id="start">start</li></a-->
+      <a href="projects.html"><li>projects</li></a>
+      <a href="designposters.html"><li>design</li></a>
+      <a href="about.html"><li>about me</li></a>
+      <!--a href="blog.html"><li id="blog">blog</li></a-->
+      <a href="Resume.html" target="_blank"><li>résumé</li></a>
+    </ul>
+  </nav>
+  
+  <section><!-- TemplateBeginEditable name="Body" -->
+    <article>
+</article>
+<!--TemplateEndEditable-->
+</section>
+</div>
+
+
+</body>
+
+</html>

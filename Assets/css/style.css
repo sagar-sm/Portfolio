@@ -1,0 +1,671 @@
+/* 
+noindex:-o-prefocus, nav { 
+  color:red; 
+}*/
+
+.home {
+	font-family:"Lsegoeui";
+	font-size:2.5em;
+	text-align:center;
+	margin-top:350px;
+}
+.homenav {
+	text-align:center;
+}
+.homenav a {
+	font-family: Lsegoeui;
+	margin:10px;
+	font-size: 1.3em;
+	font-weight: lighter;
+}
+.homenav a:hover {
+	font-family: Lsegoeui;
+	margin:10px;
+	font-size: 1.3em;
+	font-weight: lighter;
+	color:#09f;
+}
+
+
+#leftSidebar {
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	float: left;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	font-smooth: always;
+}
+
+@font-face {  
+	  font-family: "Nsegoeui";  
+	  src: url(../Assets/Fonts/eot/segoeui.eot); /* IE */  
+	  src: local("Segoe UI"), url(../Assets/Fonts/segoeui.ttf) format("truetype"); /* non-IE */  
+	}
+	
+	/*
+@font-face {  
+	  font-family: "LIsegoeui";  
+	  src: url(../Assets/Fonts/eot/seguisli.eot);
+	  src: local("Segoe UI Semilight Italic"), url(../Assets/Fonts/seguisli.ttf) format("truetype");
+	}
+*/
+@font-face {  
+	  font-family: "Lsegoeui";  
+	  src: url(/Assets/Fonts/eot/segoeuil.eot);  
+	  src: local("Segoe UI Light"), url(/Assets/Fonts/segoeuil.ttf) format("truetype");  
+	} 
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-attachment: fixed;
+	/*background-image: url(../Images/v2/banner.png);*/
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+#bigem {
+	font-family: "Lsegoeui", Calibri, Helvetica, sans-serif;
+	font-size: 1.7em;
+	font-weight: normal;
+	color: #1bc2e6;
+
+}
+#headerimg {
+	margin-left: 18px;
+	float: left;
+	position: fixed;
+}
+
+
+
+
+.container {
+	/*width: 70%; /* the auto value on the sides, coupled with the width, centers the layout */
+	/*margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 300px;
+	float: none;*/
+}
+
+#grid
+{
+	display: grid;
+	display: -ms-grid;
+	grid-columns: 1fr 1fr 1fr 1fr;
+	grid-rows: 1fr 1fr 1fr 1fr;
+	-ms-grid-columns: 1fr 1fr 1fr 1fr;
+	-ms-grid-rows: 1fr 1fr 1fr 1fr;
+	
+
+	}
+
+.header {
+	float:left;
+	position:fixed;
+	margin-left:20px;
+	font-family: "Lsegoeui", Calibri, sans-serif;
+	font-size: 1.8em;
+	color: #000;
+}
+	
+h1 {
+	margin-top:20px;
+	font-family: "Lsegoeui", Calibri, Helvetica, sans-serif;
+	font-weight:lighter;
+	font-size: 1.8em;
+	color: #1bc2e6;
+}
+h2 {
+	font-family: "Lsegoeui", Calibri, Helvetica, sans-serif;
+	font-size: 1.2em;
+	margin-top: 2px;
+	font-weight:lighter;
+	margin-bottom: 2px;
+	float: none;
+	color: #000;
+}
+
+
+
+section {
+	margin-left: 250px;
+	width: 960px;
+}
+
+section article p {
+	font-size: 0.85em;
+	color: #666;
+	font-family: "Nsegoeui", Calibri, Arial, Helvetica, sans-serif;
+}
+
+
+section article {
+	color: #666;
+	border-bottom: 1px;
+	padding-right: 20px;
+}
+
+section p {
+	font-family: "Nsegoeui", Calibri, Helvetica, sans-serif;
+	font-size: 0.85em;
+	color: #666;
+	text-align: justify;
+}
+table  {
+	margin-left: 20%;
+}
+
+
+hr {
+	margin-left: 20%;
+}
+.start_icon {
+	background-image: url(../Images/Icons/Start.png);
+	height: auto;
+	width: auto;
+	background-attachment: fixed;
+}
+.indexintro {
+	float:left;
+	clear:both;
+}
+.indexitem {
+	margin-right:50px;
+	font-family: "Lsegoeui", Calibri, Helvetica, sans-serif;	
+	font-size:1.4em;
+	color:#999;
+	float:left;
+}
+
+
+p img {
+	margin-top: 0px;
+	margin-right: 7px;
+	margin-bottom: 7px;
+	margin-left: 0px;
+}
+nav {
+	float: left;
+	position: fixed;
+	margin-top:55px;
+	margin-left:10px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+nav ul a li {
+	font-family: "Lsegoeui", Calibri, Helvetica, sans-serif;
+	font-size: 1.2em;
+
+}
+nav li{
+	height: 30px;
+}
+nav li:hover {
+	color:#09F;
+}
+
+#start{
+	background-image: url(../Images/Icons/Start_bw.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#start:hover{
+	background-image: url(../Images/Icons/Start.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+}
+
+#projects{
+	background-image: url(../Images/Icons/projects_bw.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-position:left;
+}
+
+#projects:hover{
+	background-image: url(../Images/Icons/projects.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+}
+#interactive{
+	background-image: url(../Images/Icons/interactive_bw.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-position:left;
+}
+
+#interactive:hover{
+	background-image: url(../Images/Icons/interactive.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+}
+
+#design{
+	background-image: url(../Images/Icons/design_bw.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-position:left;
+}
+
+#design:hover{
+	background-image: url(../Images/Icons/design.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+}
+
+#about{
+	background-image: url(../Images/Icons/about_bw.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-position:left;
+}
+
+#about:hover{
+	background-image: url(../Images/Icons/about.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+}
+
+#blog{
+	background-image: url(../Images/Icons/blog_bw.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-position:left;
+}
+
+#blog:hover{
+	background-image: url(../Images/Icons/blog.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+}
+
+#resume{
+	background-image: url(../Images/Icons/resume_bw.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-position:left;
+}
+
+#resume:hover{
+	background-image: url(../Images/Icons/resume.png);
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+}
+
+a:link {
+	text-decoration: none;
+	color: #333333;
+}
+a:visited {
+	color: #333;
+}
+a:hover {
+	color: #000;
+}
+
+a:active {
+	color: #333;
+}
+
+.compact {
+	width:600px;
+}
+ 
+
+#headliner {
+	font-family: "Lsegoeui", Calibri, Helvetica, sans-serif;
+	font-size: 4em;
+	font-weight: lighter;
+}
+a img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#small {
+	font-size: 0.7em;
+	clear: both;
+	padding-top: 20px;
+}
+#imagepanel {
+	border: medium solid #CCC;
+}
+
+/*grid layout css*/
+#posts {
+	width: 960px;
+	margin-right: 20%;
+}
+
+.items-row {
+	float: left;
+	clear: both;
+}
+
+.grid-item {
+	position: relative;
+	float: left;
+	margin-bottom: 15px;
+}
+.grid-medium-left, .grid-medium-right {
+	width: 300px;
+}
+.center {
+	text-align:center;
+}
+.caption {
+	font-family: "Nsegoeui", Calibri, Helvetica, sans-serif;
+	font-size: 0.7em;
+	color: #666;
+	margin: 0px;
+	padding: 0px;
+	width: 290px;
+	text-align: left;
+}
+
+.lb-heading {
+	font-family: "Lsegoeui", Calibri, Helvetica, sans-serif;
+	font-size:2.5em;
+	margin-top:0;
+	margin-bottom:15px;
+	margin-top:0;
+	padding:0;
+	color:#FFF;
+	
+}
+
+/*
+.items-row .grid-item .grid-medium-left img {
+	transform:skewX(-3deg);
+	-moz-transform: skew(-3deg);
+    -webkit-transform: skew(-3deg);
+}
+.items-row .grid-item .grid-medium-right img {
+	transform:skewX(3deg);
+	-moz-transform: skew(3deg);
+    -webkit-transform: skew(3deg);
+}
+*/
+
+/*designs pivot nav*/
+.pivotnav {
+	float:left;
+	clear:both;
+}
+.pivot-item {
+	float: left;
+	position: relative;
+	margin-bottom: 24px;
+	margin-right: 5px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 2px;
+	font-family: "Lsegoeui", Calibri, Helvetica, sans-serif;
+	font-size: 1.7em;
+	font-style: normal;
+	font-weight: lighter;
+	color: #000;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.pivot-selected {
+	background-color:#EEE;
+}
+.pivot-item:hover {
+	background-color:#EEE;
+}
+.pivot-contents {
+	clear:both;
+}
+
+/*contact me*/
+.contact-pane {
+	float:left;
+	clear:both;
+}
+.contact-item {
+	position:relative;
+	margin-bottom:10px;
+	width:70px;
+	float:left;
+}
+.contact-pane .contact-item {
+	text-align: center;
+	font-family: "Lsegoeui", Calibri, Helvetica, sans-serif;
+}
+
+/* BADASS CSS3 starts here :) */
+
+.lb-album{
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'Lsegoeui', 'Calibri', Arial, sans-serif;
+}
+.lb-album li{
+	float: left;
+	position: relative;
+}
+.lb-album li > a,
+.lb-album li > a img{
+	display: block;
+	width:300px;
+	height:225px;
+}
+.lb-album li > a{
+	width: 300px;
+	height: 225px;
+	position: relative;
+	/*padding: 10px;*/
+	-webkit-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(0,0,0,0.3) inset;
+	-moz-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(0,0,0,0.3) inset;
+	box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(0,0,0,0.3) inset;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+.lb-album li > a span{
+	position: absolute;
+	width: 300px;
+	height: 225px;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	line-height: 150px;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+	font-size: 24px;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	background: rgb(0,0,0);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.3)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
+	background: radial-gradient(center, ellipse cover, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 100%);
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	-ms-transition: opacity 0.3s linear;
+	transition: opacity 0.3s linear;
+}
+.lb-album li > a:hover span{
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+.lb-overlay{
+	width: 0px;
+	height: 0px;
+	position: fixed;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	z-index: 99;
+	text-align: center;
+	background: rgba(0,0,0,0.97);
+	/*
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%, rgba(241,210,194,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.56)), color-stop(100%,rgba(241,210,194,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
+	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);*/
+}
+.lb-overlay p{
+	position: relative;
+	color:#DDD;
+}
+.lb-overlay p a{
+	position: relative;
+	color:#DDD;
+	text-align:justify;
+}
+.lb-overlay p a:hover{
+	position: relative;
+	color:#FFF;
+}
+.lb-overlay div h3,
+.lb-overlay div p{
+	padding: 0px 20px;
+	width: 200px;
+	height: 60px;
+}
+.lb-overlay div h3{
+	font-size: 36px;
+	float: left;
+	text-align: right;
+	border-right: 1px solid rgba(27,54,81,0.4);
+}
+.lb-overlay div h3 span,
+.lb-overlay div p{
+	font-size: 16px;
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-style: italic;
+}
+.lb-overlay div h3 span{
+	display: block;
+	line-height: 6px;
+}
+.lb-overlay div p{
+	font-size: 14px;
+	text-align: left;
+	float: left;
+	width: 260px;
+}
+.lb-overlay a.lb-close{
+	z-index: 1001;
+	color: #fff;
+	position:absolute;
+	top: 20px;
+	left: 50%;
+	font-size: 15px;
+	text-align: left;
+	overflow: hidden;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+}
+.lb-overlay img{
+	/* height: 100%; For Opera max-height does not seem to work */
+	position: relative;
+	float:left;
+	margin:30px;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+a.lb-prev{
+	z-index:1001;
+	color: #fff;
+	position:absolute;
+	top: 20px;
+	left: 10%;
+	font-size: 15px;
+	text-align: left;
+	overflow: hidden;
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=80)"; /*IE8*/
+}
+a.lb-next{
+	z-index: 1001;
+	color: #fff;
+	position:absolute;
+	top: 20px;
+	left: 90%;
+	font-size: 15px;
+	text-align: left;
+	overflow: hidden;
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=80)"; /*IE8*/
+}
+.lb-prev:hover, .lb-next:hover{
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+.lb-prev{
+	margin-left: -30px;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+.lb-next{
+	margin-left: 6px;
+	background: transparent url(../images/arrows.png) no-repeat top right;
+}
+.lb-overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0px;
+	right: 0px;
+	padding: 80px 100px 120px 100px;
+}
+.lb-overlay:target img,
+.lb-overlay:target a.lb-close{
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+*/
+x:-o-prefocus, .lb-overlay img {
+    height: 100%;
+}
