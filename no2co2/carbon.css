@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+h1{
+	margin:0 0 10px 0;
+	font-family:"Lobster";
+	font-size: 3.5em;
+	font-weight:normal;
+}
+h2{
+	margin:0 0 10px 0;
+	font-size:1.2em;
+	color:#333;
+	font-weight:normal;
+}
+a {
+	text-decoration:none;
+}
+a:link , a:visited {
+	color:#09C;
+}
+
+section {
+	margin-bottom: 7px;
+}
+header, footer {
+	background: #fff;
+	text-align:center;
+	margin-bottom: 20px;
+}
+footer {
+	margin: 50px;
+	color: #333;
+}
+header img {
+	width: 150px;
+}
+
+
+#CarbonChamp {
+	background: #00C7EA;
+}
+
+.content {
+	float:left;
+	width: 45%;
+	padding: 7.5%;
+}
+p {
+	font-size: 1.07em;
+}
+
+#CarbonChamp img.disp {
+	display:inline;
+	float: right;
+	width: 35%;
+	height: 35%;
+}
+
+.heading {
+	display:block;
+	float: none;
+	height: 4em;
+}
+
+#CarbonCalc {
+	background:#55DD7D;
+}
+
+#CarbonCalc img.disp {
+	display:inline;
+	float: left;
+	width: 35%;
+	height: 35%;
+}
+
+.button {
+	display:inline-block;
+	cursor: pointer;
+	background:rgba(0,0,0,0.2);
+	height: 50px;
+	width: 110px;
+	text-align:center;	
+}
+.button h2 {
+	color: #fff;
+	padding-top: 15px;
+}
+.button:hover {
+	background:rgba(0,0,0,0.4);
+}
+
+font-face {  
+	  font-family: "Open Sans";  
+	  src: url(/fonts/open-sans/OpenSans-Regular.eot); /* IE */  
+	  src: url(/fonts/open-sans/OpenSans-Regular.ttf) format("truetype"); /* non-IE */  
+	}
