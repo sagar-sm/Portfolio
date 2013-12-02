@@ -60,6 +60,7 @@
  }
 
 
+
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
@@ -267,4 +268,15 @@
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
 
+/* #Embed
+================================================== */
+	.embed-container iframe,
+	.embed-container object,
+	.embed-container embed {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
 
