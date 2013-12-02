@@ -1,4 +1,4 @@
-body, html { position:relative; z-index:1; height:100%; background:#000; font-family:'TradeGothicLTStdCnNo.18'; }
+body, html { position:relative; z-index:1; height:100%; background:#000; font-family:'Helvetica', 'Arial'; }
 
 .wrapper { width:100%; height:500px; position:relative; z-index:1; top:50%; margin:-250px auto 0; overflow:hidden; background:url(../images/stars.png);
 	-moz-background-size:500px; -webkit-background-size:500px; background-size:500px;
@@ -6,12 +6,12 @@ body, html { position:relative; z-index:1; height:100%; background:#000; font-fa
   
 .intro { width:500px; margin:150px auto 0; color:rgb(13,66,144); font-size:40px; text-align:left; opacity:0; -webkit-transition:opacity 0.3s linear; }
 
-.crawl { padding-top:0px; position:absolute; z-index:10; top:430px; font-size:60px;  -webkit-transition:all 76s linear; -moz-transition:all 76s linear; }
-.crawl.play { top:-2600px; }
+.scroll { padding-top:0px; position:absolute; z-index:10; top:430px; font-size:60px;  -webkit-transition:all 76s linear; -moz-transition:all 76s linear; }
+.scroll.play { top:-2600px; }
 
-.crawl p { font-family:"SWCrawlBodyRegular"; text-align:justify; color:rgb(252,223,43); }
-.crawl p:first-child { text-align:center; }
-.crawl p:first-child strong { display:block; font-size:72px; }
+.scroll p { font-family:"Helvetica", "Arial"; text-align:justify; color:rgb(252,223,43); }
+.scroll p:first-child { text-align:center; }
+.scroll p:first-child strong { display:block; font-size:72px; }
 
 
 .logo { position:absolute; z-index:1; top:0; left:50%; height:100%; margin:0 0 0 -250px; opacity:0;

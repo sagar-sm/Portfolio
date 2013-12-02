@@ -2,7 +2,7 @@
 	var intro = $('.intro'),
 	    logo = $('.logo'),
 	    audio = $('#starwars-theme'),
-	    crawl = $('.crawl'),
+	    scroll = $('.scroll'),
 	    transEndEventNames = {
 		    'WebkitTransition' : 'webkitTransitionEnd',
 		    'MozTransition'    : 'transitionend',
@@ -17,8 +17,8 @@
 			$('.perspective').css({overflow:'hidden'});
 		}
 		if (!(navigator.userAgent.toLowerCase().indexOf('safari') > -1)) {
-			intro.text('Your browser does not properly support CSS 3D Transforms.  Please check this out in either Chrome or Safari.');
-			crawl.hide();
+			intro.text('Please use Chrome or Safari to view this page.');
+			scroll.hide();
 			intro.addClass('show');
 			return false;
 		}
@@ -31,9 +31,9 @@
 				
 				logo.find('img').bind(transEndEventName, function () {
 					logo.removeClass('show');
-					crawl.addClass('play');
-					crawl.bind(transEndEventName, function () {
-						crawl.css('opacity', 0);
+					scroll.addClass('play');
+					scroll.bind(transEndEventName, function () {
+						scroll.css('opacity', 0);
 					});
 				});
 			}, 3000);
