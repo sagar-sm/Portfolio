@@ -1,0 +1,141 @@
+/* === CSS RESET === */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* === End of CSS RESET === */
+
+body {
+	background: #f0f0f0;	
+	font-size: 1.6em;
+	font-family: "Open Sans", sans-serif;
+	overflow: hidden;
+}
+h1 {
+	font-weight: 800;
+}
+
+a, a:visited {
+	color: white;
+	text-decoration: none;
+	border-bottom: 2px dotted;
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: #AAA;
+}
+
+a:active {
+	color: lightblue;
+}
+
+.big {
+	display: block;
+	font-weight: 300;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+}
+
+.mordel, .start{
+	color: #3189D6;
+}
+.frost{
+	color: #B33E5A;
+}
+
+.wrapper div {
+	position: absolute;
+}
+
+.settings, nav {
+	position: fixed;
+	z-index: 9999999;
+	bottom: 0;
+	background: rgba(10,10,10, 0.5);
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.settings {
+	right: 0;
+	padding: 10px 20px;
+	border-radius: 10px 0 0 0;
+}
+
+.settings a {
+	border: none;
+}
+
+nav {
+	left: 0;
+	border-radius: 0 10px 0 0;
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	text-align: center;
+	transition: 0.25s;
+}
+
+nav li:last-child a {
+	border-radius: 0 10px 0 0;
+}
+
+nav a:hover {
+	background: rgba(15,15,15, 0.5);
+}
+
+.sp-canvas {
+	display: none;
+}
+
+
+@keyframes point-down {
+	from {
+		top: 0;
+	}
+	to {
+		top: 5px;
+	}
+}
+
+@keyframes highlight {
+	to {
+		background: lightblue;
+	}
+}
