@@ -1,6 +1,6 @@
-$(document).ready(init);
+$(document).ready(initScroll);
 
-function init() {
+function initScroll() {
 	/* ========== DRAWING THE PATH AND INITIATING THE PLUGIN ============= */
 	var left = 400;
 	var top = 40;
@@ -12,6 +12,9 @@ function init() {
 		}
 		else if($(this).hasClass("frost")){
 			top += 900;
+		}
+		else if($(this).hasClass("thing")){
+			left += 900;
 		}
 		lefts.push(left);
 		tops.push(top);
@@ -39,7 +42,14 @@ function init() {
 		.lineTo(lefts[13], tops[13], {name: "c14"})
 		.lineTo(lefts[14], tops[14], {name: "c15"})
 		.lineTo(lefts[15], tops[15], {name: "c16"})
-		.lineTo(lefts[16]+1000, tops[16], {name: "c17"});
+		.lineTo(lefts[16], tops[16], {name: "c16"})
+		.lineTo(lefts[17], tops[17], {name: "c14"})
+		.lineTo(lefts[18], tops[18], {name: "c15"})
+		.lineTo(lefts[19], tops[19], {name: "c16"})
+		.lineTo(lefts[20], tops[20], {name: "c16"})
+		.lineTo(lefts[21], tops[21], {name: "c15"})
+		.lineTo(lefts[22], tops[22], {name: "c16"})
+		.lineTo(lefts[23]+1000, tops[23], {name: "c17"});
 		// Arc and rotate back to the beginning.
 		//.arc(1300, 50, 900, -Math.PI/2, -Math.PI, true, {rotate: Math.PI*2, name: "end"});
 
